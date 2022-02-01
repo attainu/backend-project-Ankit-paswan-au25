@@ -1,0 +1,21 @@
+------------------------------------section -1-----------------------
+E commerce -online-buying-selling.
+In this project there is online buying selling of any product.
+Anyone who is having store they can register as a vendor and sell their product online ,just by adding there product into database.
+Vendor will having a access of their product for adding ,deleting ,viewing ,and updating.
+Vendor will be having there own routes that will not acessiable to anyone else.
+----------------------------------section-2----------------------------
+There will be one admin routes.
+which will be having all the access for adding ,deleting ,viewing ,and updating.
+He will be special permision to delete,add, update and viewing of all vendors and there products.
+----------------------------------section-3----------------------------
+last but not the least .
+There will be user routes .
+In user routes there will be a signup and signin  option.
+new user can signup there self and start buying product.
+after login we will try to add cart as well so he can buy many products from many vendor at a same time.
+but if user is not signed in he will be able to buy one thing at a time .
+user will be having search bar and filter option.
+We will try all the necessary thing which a good Ecommerece website have.
+we wil try to make as simple as we can for users and for vendor.
+If we got time we will try to add offer wala thing 
