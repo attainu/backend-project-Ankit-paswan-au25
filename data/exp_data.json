@@ -1,0 +1,11 @@
+[
+    {
+        "name":"washing machine",
+        "brand_name":"samsung",
+        "price":"7000",
+        "description":"superfast dry and wash",
+        "rating":"4.5",
+        "quantity":"10"
+    }
+
+]

@@ -1,0 +1,47 @@
+extends base
+
+block content
+  .regcontent
+
+    .regcontent-header
+      label(for='') Register
+      br
+      br
+    .regcontent-drag
+      label.regcontent-drag(for='')
+          strong Register as :
+      .nav__el
+        a#vendorregbtn(href='/index/vendorsignup') As VENDOR
+        | 
+      .nav__el
+        a#vendorregbtn(href='/index/usersignup') As USER
+      br
+      br
+    form.regcontent-form(action='/index/usersignup' method='Post')
+      label.regcontent-name(for='')
+        | Name
+      input.regcontent-name-ip(type='text' name="name")
+      br
+      br
+      label.regcontent-email(for='')
+        | Email
+      input.regcontent-email-ip(type='text' name="email")
+      br
+      br
+      label.regcontent-phoneno(for='')
+        | Phoneno
+      input.regcontent-phone-ip(type='text' name="phoneno")
+      br
+      br
+      label.regcontent-password(for='')
+        | Password
+      input.regcontent-password-ip(type='Password' name="password")
+      br
+      br
+      label.regcontent-confirmpassword(for='' )
+        | confirm
+      input.regcontent-confirmpassword-ip(type='password' name="confirmpassword")
+      br
+      br
+      button.regcontent-btn-register(type="submit") Register
+    a(href='/index/userlogin') Login

@@ -1,0 +1,52 @@
+extends base 
+block content
+    .vendorcontent
+        .vendor-header
+            .label(for='') Register
+        .nav__el
+            a#vendorregbtn(href='/index/usersignup')
+                h3 As USER
+        form.vendor(action='/index/vendorsignup' method="POST")
+            .vendorcontent-1
+                .label.vendorcontent-shopname(for='')
+                    | ShopName
+                input.vendorcontent-shopname-ip(type='text' name='shopname')
+                br
+                br
+                .label.vendorcontent-ownername(for='')
+                    | ownername
+                input.vendorcontent-ownername-ip(type='text' name='ownername')
+                br
+                br
+                .label.vendoecontent-shopemail(for='')
+                    | ShopEmail
+                input.vendorcontent-shopemail-ip(type='text' name='shopemail')
+                br
+                br
+                .label.vendorcontent-shoptype(for='')
+                    | ShopType
+                input.vendorcontent-shoptype-ip(type='text' name='shoptype')
+                br
+                br
+            .vendorcontent-2
+                .label.vendorcontent-shopaddress(for='')
+                    | ShopAddress
+                input.vendorcontent-shopaddress-ip(type='text' name='shopaddress')
+                br
+                br
+                .label.vendorcontent-shopnumber(for='')
+                    | ShopNumber
+                input.vendorcontent-shopnumber-ip(type='text' name='shopnumber')
+                br
+                br
+                .label.vendorcontent-ownernumber(for='')
+                    | OwnerNumber
+                input.vendorcontent-ownernumber-ip(type='text' name='ownernumber')
+                br
+                br
+                .label.vendorcontent-password(for='')
+                    | Password
+                input.vendorcontent-password-ip(type='password' name='password')
+                br
+                br
+                button.vendorcontent-btn-register(type='submit') Register

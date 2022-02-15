@@ -1,0 +1,17 @@
+//Header
+header.header 
+    .header__logo
+        img(src='/img/logo-white.png' alt='natour logo')
+    nav.nav.van--tours.logotext
+        h1 
+            a.nav__el(href='/index') A&F
+        form.nav__search.navsearchalign(action='/index/searchedProducted' method='POST')
+            input.nav__search-input#welcome(type="text" name="searchAll" placeholder="search product")           
+            button.nav__search-btn(type='submit')
+                svg 
+                    use(href='/img/icons.svg#icon-search') 
+
+
+    nav.nav.nav--user
+        a.nav__el(href='/index/userlogin') Log in
+        a.nav__el.nav__el--cta(href='/index/usersignup') Sign up

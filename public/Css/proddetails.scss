@@ -1,0 +1,178 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(223, 222, 222, 0.493);
+}
+// .prodcontent{
+//     display: flex;
+//     margin-top: 12vh;
+//     margin-left: 5vw;
+//     background-color: rgba(147, 252, 182, 0.199);
+//     width: 90vw;
+//     height: 70vh;
+//     .prodimgsetting{
+//         margin-top: 3vh;
+//         margin-bottom: 1vh;
+//         width: 25vw;
+//         height:55vh;
+//         margin-left: 1vw;
+//     .proddescription{
+//         display: flex;
+//         margin-top: 210vh;
+//         .prodname{
+//             display: inline;
+//             margin-left: 2.5vw;
+//             margin-top: 70vh;
+//         }
+//         .descriptionpro{
+//             margin-top: 15vw;
+//             margin-left: -5rem;
+//             .proddata{
+//                 margin-top: 1rem;
+//                 margin-left: -26rem;
+//                 .prodetilselment{
+//                     margin: 0;
+//                 }     
+//             }
+//             .addtocartbtn{
+//                 width: 5vw;
+//                 height: 10vh;
+//                 border-radius: 9vh; 
+//                 margin-top: 10vh;
+//                 margin-left: 15vw; 
+//                 background-color:rgb(105, 223, 76);
+//                 transition: box-shadow .3s;
+//                 border: 1px ;
+//                 float: left;
+//             }
+//             .buybtn{
+//                 margin: 0;
+
+//             }
+
+
+
+//         }
+
+
+//         }
+//     }
+// }
+.prodcontent{
+    display: flex;
+    margin-top: 12vh;
+    margin-left: 5vw;
+    background-color: rgba(147, 252, 182, 0.199);
+    width: 90vw;
+    height: 68.5vh;
+}
+.prodimgsetting{
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    width: 25vw;
+    height:55vh;
+    margin-left: 1vw;
+}
+.proddescription{
+    display: flex;
+    height: 55vh;
+    width: 60vw;
+    margin-top: 3vh;
+    //background-color: aqua;
+    position: relative;
+}
+.prodname{
+    display: inline;
+    height: 5vh;
+    width: 25vw;
+    //background-color: red;
+    text-align:left;
+    text-transform: uppercase;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+.proddata{
+    margin-top: 8vh;
+    margin-left: -38.5rem;
+    height: 30vh;
+    width: 20vw;
+    //background-color: rgb(52, 146, 228);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.descriptionpro{
+    margin-top: 38.5vh;
+    margin-left: -31rem;
+    height: 10vh;
+    width: 20vw;
+   // background-color: rgb(255, 0, 242);
+    font-size: small;
+    color: black;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+
+.prodetilselment{
+margin: 0;
+color: black;
+text-transform: uppercase;
+position: relative;
+font-size: medium;
+} 
+.addtocartbtn{
+    width: 15vw;
+    height: 10vh;
+    border-radius: 9vh; 
+    margin-top: -20vh;
+    margin-left: 35vw; 
+    background-color:rgb(105, 223, 76);
+    transition: box-shadow .3s;
+    border: 1px ;
+    float: left;
+    font-weight: 600;
+    font-size: medium;
+}
+.buybtn{
+    width: 15vw;
+    height: 10vh;
+    border-radius: 9vh; 
+    margin-top: -5vh;
+    margin-left: 35vw; 
+    background-color:rgb(105, 223, 76);
+    transition: box-shadow .3s;
+    border: 1px ;
+    float: left;
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+.buybtn:hover{
+    background-color: rgb(126, 241, 142);
+    box-shadow: 30px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.addtocartbtn:hover{
+    background-color: rgb(126, 241, 142);
+    box-shadow: 30px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.loginlabel{
+    font-size: medium;
+}
+
+

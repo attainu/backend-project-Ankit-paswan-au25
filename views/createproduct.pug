@@ -1,0 +1,63 @@
+extends base 
+block content
+    .updatecontent
+        .update-header
+            label(for='') Create Products
+        form.update-product(action='/index/createproduct' method='POST')
+            .updatecontent-1
+                label.updatecontent-name.labelclass(for='')
+                    | Name
+                input.updatecontent-name-ip(type='text' placeholder='Name' name='productname')
+                br
+                br
+                label.updatecontent-brandname.labelclass(for='')
+                    | brandname
+                input.updatecontent-brandname-ip(type='text' placeholder='BrandName' name='brandname' )
+                br
+                br
+                label.updatecontent-price.labelclass(for='' )
+                    | price
+                input.updatecontent-price-ip(type='text' placeholder='Rs/-' name='productprice')
+                br
+                br
+                label.updatecontent-image.labelclass(for='')
+                    | images
+                input.updatecontent-image-ip(type='file' name='productpic')
+                br
+                br
+                label.updatecontent-imagecover.labelclass(for='')
+                    | imagecover
+                input.updatecontent-imagecover-ip(type='text' placeholder='Type cover'  name='imagecover' disabled)
+                br
+                br
+            .updatecontent-2
+                label.updatecontent-category.labelclass(for='')
+                    | category
+                input.updatecontent-category-ip(type='text' placeholder='Category'  name='category')
+                br
+                br
+                label.updatecontent-description.labelclass(for='')
+                    | description
+                input.updatecontent-description-ip(type='text' placeholder='Description'  name='productdescription')
+                br
+                br
+                label.updatecontent-rating.labelclass(for='')
+                    | rating
+                input.updatecontent-rating-ip(type='text' placeholder='Rating'  name='review')
+                br
+                br
+                label.updatecontent-maxdiscounted.labelclass(for='')
+                    | discount
+                input.updatecontent-maxdiscounted-ip(type='text' placeholder='MaxDiscountedPrice' name='discountprice')
+                br
+                br
+                label.updatecontent-quantity.labelclass(for='')
+                    | quantity
+                input.updatecontent-quantity-ip(type='number' placeholder='Quantity' name='quantity')
+                br
+                br
+                button.updatecontent-btn-register(type='submit') submit
+        .nav_el 
+            a.updatecontent-btn-register#updbtn(href='/index/updateproduct') Update
+            a.updatecontent-btn-register#dltbtn(href='/index/deleteproduct') delete 
+            a.updatecontent-btn-register#viebtn(href='/index/viewproduct') View Product     
