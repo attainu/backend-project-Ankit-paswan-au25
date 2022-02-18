@@ -1,0 +1,46 @@
+extends base
+
+block content
+  .regcontent
+    .regcontent-header
+      label(for='') Register
+    br
+    br
+    .regcontent-drag
+      label.regcontent-drag(for='')
+        b
+          strong Register as :
+      select.regcontent-drag--option(name='' id='')
+        | select here
+        option User
+        option Vendor
+      br
+      br
+    form.regcontent-form(action='' method='post')
+      label.regcontent-name(for='')
+        | Name
+      input.regcontent-name-ip(type='text')
+      br
+      br
+      label.regcontent-email(for='')
+        | Email
+      input.regcontent-email-ip(type='text')
+      br
+      br
+      label.regcontent-phoneno(for='')
+        | Phoneno
+      input.regcontent-phone-ip(type='text')
+      br
+      br
+      label.regcontent-password(for='')
+        | Password
+      input.regcontent-password-ip(type='text')
+      br
+      br
+      label.regcontent-confirmpassword(for='')
+        | confirm
+      input.regcontent-confirmpassword-ip(type='text')
+      br
+      br
+      button.regcontent-btn-register Register
+      button.regcontent-btn-login Login

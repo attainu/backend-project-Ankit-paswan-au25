@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(223, 222, 222, 0.493);
+
+}
+
+.label{
+    display: inline-block;
+    width: 50%;
+} 
+
+.vendorcontent-1{
+    /* background-color:blue; this line is  not active*/
+    margin-top: 2rem;
+    width: 45%;
+    height: 50vh;
+    display: inline-block;
+    
+
+}
+
+.vendorcontent{
+
+    background-color: rgba(147, 252, 182, 0.199);
+    width:70vw;
+    height: 70vh;
+    margin-top: 7%;
+    margin-left: 15vw;
+}
+.vendor-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color:rgba(0, 0, 0, 0.616);
+}
+.vendor{
+    flex-direction: column;
+    font-size: large;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 1vw;
+}
+.vendorcontent-shopname{
+    /* margin-top: 1vw; this line is not active*/
+    margin-bottom: 2vw;
+    font-size: x-large;
+    
+    
+}
+
+.vendorcontent-shopname-ip{
+    margin-left: -3vw;
+    margin-top: 3vh;
+    height: 4vh;
+    width:15vw;
+}
+.vendorcontent-ownername{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+.vendorcontent-ownername-ip{
+    margin-left: -3vw;
+    /* margin-top: 2vh; this line is not active*/
+    height: 4vh;
+    width: 15vw;
+}
+.vendoecontent-shopemail{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+.vendorcontent-shopemail-ip{
+    margin-left: -3vw;
+    
+    width: 15vw;
+    height: 4vh;
+}
+.vendorcontent-shoptype{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+.vendorcontent-shoptype-ip{
+    margin-left: -3vw;
+    width: 15vw;
+    height: 4vh;
+}
+.vendorcontent-2{
+    /* background-color: brown; this line is not active*/ 
+    float: right;
+    margin-top: 2.5rem;
+    width: 55%;
+    height: 50vh;
+    display:inline;
+}
+
+.vendorcontent-shopaddress{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+ .vendorcontent-shopaddress-ip{
+    margin-left: -3vw;
+    margin-top: 2vh;
+    height: 4vh;
+    width:15vw;
+}
+
+.vendorcontent-shopnumber{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+.vendorcontent-shopnumber-ip{
+    margin-left: -3vw;
+    /* margin-top: 3vh; this line is not active*/
+    
+    width: 15vw;
+    height: 4vh;
+}
+
+.vendorcontent-ownernumber{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+.vendorcontent-ownernumber-ip{
+    margin-left: -3vw;
+    width: 15vw;
+    height: 4vh;
+}
+.vendorcontent-password{
+    margin-bottom: 2vw;
+    font-size: x-large;
+}
+.vendorcontent-password-ip{
+    margin-left: -3vw;
+    width: 15vw;
+    height: 4vh;
+}
+.vendorcontent-btn-register{
+    
+    height: 6vh;
+    width: 8vw;
+    margin-top: -2vw;
+    border-radius: 20px;
+    margin-left: 29vw;
+    background-color: rgb(112, 248, 134);
+    border: 1px ;
+    float: left;
+    font-weight: 600;
+    font-size: medium;
+}
+.vendorcontent-btn-register:hover{
+    background-color: rgb(126, 241, 142);
+    box-shadow: 30px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+} 

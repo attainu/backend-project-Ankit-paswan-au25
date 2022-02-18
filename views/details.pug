@@ -1,0 +1,31 @@
+extends base
+block content
+    .prodcontent
+        .prodimage
+            img.prodimgsetting(src='/img/tour-2-1.jpg' alt='')
+        .proddescription
+            .prodname
+                h1=Products.name
+                 br
+
+            .proddata
+                h2.prodetilselment=Products.maxDiscountedprice 
+                br
+                h2.prodetilselment heloo product is good 
+                br
+                br
+                h2.prodetilselment=Products.rating
+                br
+                br
+                h2.prodetilselment
+                    strong=`Price ${Products.price}`
+
+            .descriptionpro
+                h3
+                    strong=Products.description
+                button.addtocartbtn Add to Cart
+                button.buybtn Buy Now
+                
+
+            
+                

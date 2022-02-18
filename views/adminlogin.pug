@@ -1,0 +1,25 @@
+extends base
+
+block content
+    
+    main.main
+        .login-form
+            h2.heading-secondary.ma-bt-lg Log into your account 
+            nav.nav.nav--user
+                
+                .nav__el
+                    a#userlgnbtn(href='/index/userlogin') As User
+                .nav__el
+                    a#vendorlgnbtn(href='/index/vendorlogin') As VENDOR
+                .nav__el
+                    a#adminlgnbtn(href='/index/adminlogin') As Admin
+            form.form(action='/index/vendor/login' method='POST')
+                .form__group
+                    label.form__label(for='email' ) Email address
+                    input#email.form__input(type='email', name='email' placeholder='you@example.com', required)
+                .form__group.ma-bt-md
+                    label.form__label(for='password' ) Password
+                    input#password.form__input(type='password',name='password' placeholder='••••••••', required, minlength='8')
+                .form__group
+                    button.btn.btn--green(type='submit') Login
+    
